@@ -72,7 +72,7 @@ public class PrincipalClass
 		// Now this is tricky. We have 2 incompatible time zone implementations
 		// We need to force Java into using a JDK 1.3.1 compatible
 		// implementation
-		TimeZone.setDefault(TimeZone.getTimeZone("etc/GMT-1"));
-		NSTimeZone.setDefault(TimeZone.getTimeZone("etc/GMT-1"));
+//		TimeZone.setDefault(TimeZone.getTimeZone("etc/GMT-1"));
+//		NSTimeZone.setDefault(TimeZone.getTimeZone("etc/GMT-1"));
 	}
 }
